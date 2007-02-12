@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	ACL
 Summary:	Net::ACL - class representing a generic access-list/route-map
-Summary(pl):	Net::ACL - klasa reprezentuj±ca ogóln± listê dostêpu/mapê routingu
+Summary(pl.UTF-8):   Net::ACL - klasa reprezentujÄ…ca ogÃ³lnÄ… listÄ™ dostÄ™pu/mapÄ™ routingu
 Name:		perl-Net-ACL
 Version:	0.07
 Release:	1
@@ -29,10 +29,10 @@ The Net::ACL module allows a Perl program to do complex filtering and
 manipulation of data in the same way as routers does with access-lists
 and route-maps.
 
-%description -l pl
-Modu³ Net::ACL pozwala programowi w Perlu na z³o¿one filtrowanie i
-obróbkê danych w ten sam sposób, jak robi± to routery z listami
-dostêpu i mapami routingu.
+%description -l pl.UTF-8
+ModuÅ‚ Net::ACL pozwala programowi w Perlu na zÅ‚oÅ¼one filtrowanie i
+obrÃ³bkÄ™ danych w ten sam sposÃ³b, jak robiÄ… to routery z listami
+dostÄ™pu i mapami routingu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
