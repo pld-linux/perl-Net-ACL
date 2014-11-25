@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	ACL
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::ACL - class representing a generic access-list/route-map
 Summary(pl.UTF-8):	Net::ACL - klasa reprezentująca ogólną listę dostępu/mapę routingu
 Name:		perl-Net-ACL
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	351d7ef33c2c44ccab2911cef33b8a51
+URL:		http://search.cpan.org/dist/Net-ACL/
 BuildRequires:	perl-Cisco-Reconfig
 BuildRequires:	perl-IO-String
 BuildRequires:	perl-Net-Netmask
