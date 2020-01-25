@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	ACL
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::ACL - class representing a generic access-list/route-map
 Summary(pl.UTF-8):	Net::ACL - klasa reprezentująca ogólną listę dostępu/mapę routingu
 Name:		perl-Net-ACL
